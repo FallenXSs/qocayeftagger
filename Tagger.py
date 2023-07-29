@@ -21,7 +21,7 @@ anlik_calisan = []
 tekli_calisan = []
 rxyzdev_tagTot = {}
 rxyzdev_initT = {}
-ozel_list = [5574488658]
+ozel_list = [5638708289]
 grup_sayi = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
@@ -32,11 +32,11 @@ async def start(event):
                                               Button.inline("Əʍrlər ❤️‍🩹", data="help")
                       ],
                       [
-                       Button.url('Gruᴩunᴀ ᴇlᴀvᴇ ᴇᴛ', 'https://t.me/LordTaggerBot?startgroup=a'),
-                       Button.url('Rəsʍi ᴋᴀnᴀl 🧖', 'https://t.me/LORD_Resmi')
+                       Button.url('Gruᴩunᴀ ᴇlᴀvᴇ ᴇᴛ', 'https://t.me/LuciTaggerBot?startgroup=a'),
+                       Button.url('Rəsʍi ᴋᴀnᴀl 🧖', 'https://t.me/FivistBio')
                       ],
                       [
-                       Button.url('Sᴀhiʙ 🦅', 'https://t.me/Rexxuxxnxx')
+                       Button.url('Sᴀhiʙ 🦅', 'https://t.me/HzZenta')
                       ],
                     ),
                     link_preview=False)
@@ -60,21 +60,21 @@ async def handler(event):
                                               Button.inline("Əʍrlər ❤️‍🩹" ,data="help")
                       ],
                       [
-                       Button.url('Gruᴩunᴀ ᴇlᴀvᴇ ᴇᴛ', 'https://t.me/LordTaggerBot?startgroup=a'),
-                       Button.url('Rəsʍi ᴋᴀnᴀl 🧖', 'https://t.me/LORD_Resmi')
+                       Button.url('Gruᴩunᴀ ᴇlᴀvᴇ ᴇᴛ', 'https://t.me/LuciTaggerBot?startgroup=a'),
+                       Button.url('Rəsʍi ᴋᴀnᴀl 🧖', 'https://t.me/FivistBio')
                       ],
                       [
-                       Button.url('Sᴀhiʙ 🦅', 'https://t.me/Rexxuxxnxx')
+                       Button.url('Sᴀhiʙ 🦅', 'https://t.me/HzZenta')
                       ],
                     ),
                   link_preview=False)
                   
 @client.on(events.NewMessage(pattern="^/qurup$"))
 async def help(event):
-  helptext = "Premium Söhbət Qurupları ⚡\n\nƏlaqə -  @Rexxuxxnxx"
+  helptext = "Premium Söhbət Qurupları ⚡\n\nƏlaqə -  @HzZenta"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('༒︎ Sυмqαуιт Cнαт🇦🇿 𓆙 ', 'https://t.me/sumqayitchattt')],
+                      [Button.url('༒︎ ØLD HØUŚÉ Cнαт🇦🇿 𓆙 ', 'https://t.me/OldHouseChet')],
                     ),
                     link_preview=False
                    )
@@ -708,11 +708,11 @@ async def info(event):
   await event.reply("**Salam Mənim haqqımda və sahibim haqqında məlumat\n\nPython: 1.7.5\nKütüphanem: Telethon\n\nSahibim: @Rexxuxxnxx Gruplarınızda Olan userleri tag etmək üçün yaradılmışam**",
                     buttons=(
                       [
-                       Button.url('Məni qrupa əlavə et 🖤', 'https://t.me/LordTaggerBot?startgroup=a'),
-                       Button.url('Kanal 📣', 'https://t.me/LORD_Resmi')
+                       Button.url('Məni qrupa əlavə et 🖤', 'https://t.me/LuciTaggerBot?startgroup=a'),
+                       Button.url('Kanal 📣', 'https://t.me/FivistBio')
                       ],
                       [
-                       Button.url('Sahibim 🖥️', 'https://t.me/Rexxuxxnxx')
+                       Button.url('Sahibim 🖥️', 'https://t.me/HzZenta')
                       ],
                     ),
                     link_preview=False
